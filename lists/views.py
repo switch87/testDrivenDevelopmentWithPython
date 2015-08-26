@@ -40,5 +40,4 @@ def view_list(request, list_id):
     return render(request, 'list.html', {'list': list_, 'error': error})
 
 # todo: Remove hardcoded URLs from views.py
-# todo: Remove hardcoded URLs from forms in list.html and home.html
 # todo: Remove duplication of validation logic in views
